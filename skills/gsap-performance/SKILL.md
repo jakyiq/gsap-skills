@@ -6,6 +6,8 @@ license: MIT
 
 # GSAP Performance
 
+> **On Jaky's machine:** in a HyperFrames video project the `/hyperframes` contract wins over this skill. One paused timeline per composition, registered on `window.__timelines`. Never call `play()`, never use `repeat: -1` or unseeded randomness, and use `fromTo()` rather than `from()` inside scenes. Never split Arabic text into characters: it breaks the letter joins.
+
 ## When to Use This Skill
 
 Apply when optimizing GSAP animations for smooth 60fps, reducing layout/paint cost, or when the user asks about performance, jank, or best practices for fast animations.

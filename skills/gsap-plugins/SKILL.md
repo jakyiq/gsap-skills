@@ -6,6 +6,8 @@ license: MIT
 
 # GSAP Plugins
 
+> **On Jaky's machine:** in a HyperFrames video project the `/hyperframes` contract wins over this skill. One paused timeline per composition, registered on `window.__timelines`. Never call `play()`, never use `repeat: -1` or unseeded randomness, and use `fromTo()` rather than `from()` inside scenes. Never split Arabic text into characters: it breaks the letter joins.
+
 ## When to Use This Skill
 
 Apply when using or reviewing code that uses GSAP plugins: registering plugins, scroll-to, flip/FLIP animations, draggable elements, SVG (DrawSVG, MorphSVG, MotionPath), text (SplitText, ScrambleText), physics, easing plugins (CustomEase, EasePack, CustomWiggle, CustomBounce), or GSDevTools. ScrollTrigger has its own skill (gsap-scrolltrigger).

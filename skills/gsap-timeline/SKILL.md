@@ -6,6 +6,8 @@ license: MIT
 
 # GSAP Timeline
 
+> **On Jaky's machine:** in a HyperFrames video project the `/hyperframes` contract wins over this skill. One paused timeline per composition, registered on `window.__timelines`. Never call `play()`, never use `repeat: -1` or unseeded randomness, and use `fromTo()` rather than `from()` inside scenes. Never split Arabic text into characters: it breaks the letter joins.
+
 ## When to Use This Skill
 
 Apply when building multi-step animations, coordinating several tweens in sequence or parallel, or when the user asks about timelines, sequencing, or keyframe-style animation in GSAP.

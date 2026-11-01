@@ -6,6 +6,8 @@ license: MIT
 
 # gsap.utils
 
+> **On Jaky's machine:** in a HyperFrames video project the `/hyperframes` contract wins over this skill. One paused timeline per composition, registered on `window.__timelines`. Never call `play()`, never use `repeat: -1` or unseeded randomness, and use `fromTo()` rather than `from()` inside scenes. Never split Arabic text into characters: it breaks the letter joins.
+
 ## When to Use This Skill
 
 Apply when writing or reviewing code that uses **gsap.utils** for math, array/collection handling, unit parsing, or value mapping in animations (e.g. mapping scroll to a value, randomizing, snapping to a grid, or normalizing inputs).
